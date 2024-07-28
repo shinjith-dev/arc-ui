@@ -10,17 +10,17 @@ const config: Config = {
     container: {
       center: true,
       padding: {
-        '2xl': '200px'
-      }
+        "2xl": "200px",
+      },
     },
     extend: {
       colors: {
-        background: '#ffffff',
-        fg: '#000000',
-        subtle: '#484848',
-        muted: '#8c8c8c',
-        border: '#000',
-      }
+        background: "#ffffff",
+        fg: "#000000",
+        subtle: "#484848",
+        muted: "#8c8c8c",
+        border: "#000",
+      },
     },
   },
   plugins: [],

@@ -1,17 +1,18 @@
-import Link, { LinkProps } from "next/link"
-import { ReactNode } from "react"
+import Link, { LinkProps } from "next/link";
+import { ReactNode } from "react";
 
 interface Props extends LinkProps {
   children: ReactNode;
-  active?: boolean
+  active?: boolean;
 }
 
 export default function NavLink({ children, active = false, ...rest }: Props) {
   return (
     <Link className="group relative pb-1.5" {...rest}>
       {children}
-      <span className={`h-0.5 bg-subtle w-0 block bottom-0 transition-all group-hover:w-full origin-center left-1/2 absolute -translate-x-1/2 ${active && "w-full"}`} />
-
+      <span
+        className={`absolute bottom-0 left-1/2 block h-0.5 w-0 origin-center -translate-x-1/2 bg-subtle transition-all group-hover:w-full ${active && "w-full"}`}
+      />
     </Link>
-  )
+  );
 }

@@ -3,7 +3,6 @@ import "./globals.css";
 import { poppins } from "@/lib/fonts";
 import Navbar from "@/components/common/navbar";
 
-
 export const metadata: Metadata = {
   title: "ARC",
 };

@@ -1,7 +1,3 @@
 export default function Home() {
-  return (
-    <main>
-      Hello Arc
-    </main>
-  );
+  return <main>Hello Arc</main>;
 }
