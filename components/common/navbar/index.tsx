@@ -28,13 +28,13 @@ export default function Navbar() {
           ARC
         </Link>
 
-        <div className="flex gap-16">
-          <div className="relative">
+        <div className="flex grow gap-16">
+          <div className="relative grow">
             <label htmlFor="global-search" className="absolute left-2.5 top-2">
               <Image height={20} width={20} src={search} alt="search" />
             </label>
             <input
-              className="rounded-xl border border-border py-1 pl-9 pr-3 placeholder:text-muted"
+              className="w-full rounded-xl border border-border py-1 pl-9 pr-3 placeholder:text-muted"
               placeholder="Search here..."
             />
           </div>

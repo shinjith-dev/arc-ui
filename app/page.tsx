@@ -1,3 +1,9 @@
+import Cover from "@/components/sections/Cover";
+
 export default function Home() {
-  return <main>Hello Arc</main>;
+  return (
+    <main>
+      <Cover />
+    </main>
+  );
 }
