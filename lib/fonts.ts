@@ -1,4 +1,4 @@
-import { Poppins, Sarpanch, Volkhov } from "next/font/google";
+import { Jost, Poppins, Sarpanch, Volkhov } from "next/font/google";
 
 // logo and title/serif
 export const volkhov = Volkhov({
@@ -17,4 +17,10 @@ export const poppins = Poppins({
 export const sarpanch = Sarpanch({
   subsets: ["latin"],
   weight: ["400"],
+});
+
+// display 2
+export const jost = Jost({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
 });

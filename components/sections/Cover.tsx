@@ -15,7 +15,7 @@ export default function Cover() {
           className="object-cover"
         />
       </div>
-      <div className="relative row-span-7 overflow-hidden rounded-lg bg-muted">
+      <div className="relative row-span-7 mr-10 overflow-hidden rounded-lg bg-muted">
         <Image
           fill
           src={c2}
@@ -23,7 +23,7 @@ export default function Cover() {
           className="object-cover"
         />
       </div>
-      <div className="relative row-span-7 overflow-hidden rounded-lg bg-muted">
+      <div className="relative row-span-7 ml-10 overflow-hidden rounded-lg bg-muted">
         <Image
           fill
           src={c4}
