@@ -9,17 +9,17 @@ export type TArrival = {
 };
 
 export type TCategory = {
-  name: string
-  image: StaticImport | string
-  rotate?: boolean
-}
+  name: string;
+  image: StaticImport | string;
+  rotate?: boolean;
+};
 
 export type TProduct = {
   name: string;
-  provider?: string
+  provider?: string;
   rating: 0 | 1 | 2 | 3 | 4 | 5;
   customerReviews: string;
   price: string;
-  almostSoldOut?: boolean
-  image: StaticImport | string
-}
+  almostSoldOut?: boolean;
+  image: StaticImport | string;
+};

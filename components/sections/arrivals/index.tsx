@@ -50,7 +50,6 @@ export default function Arrivals() {
     };
   }, []);
 
-
   return (
     <section className="max-w-screen h-max overflow-x-hidden py-20">
       <div className="container relative h-[440px]">
@@ -70,7 +69,7 @@ export default function Arrivals() {
           order={active === arrivals.length - 1 ? 1 : arrivals.length}
         />
 
-        <ul className="absolute bottom-0 left-1/2 mx-auto flex items-center gap-4 transition-all -translate-x-1/2">
+        <ul className="absolute bottom-0 left-1/2 mx-auto flex -translate-x-1/2 items-center gap-4 transition-all">
           {[...new Array(arrivals.length)].map((_, index) =>
             index === active ? (
               <li

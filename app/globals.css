@@ -14,5 +14,17 @@
 }
 
 .product-shadow {
-  box-shadow: 0px 40px 90px 0px #0000000F;
+  box-shadow: 0px 40px 90px 0px #0000000f;
+}
+
+.deal-timer-shadow {
+  box-shadow: 0px 4px 14px 1px #00000029;
+}
+
+.deals-btn-shadow {
+  box-shadow: 0px 4px 14px 1px #00000029;
+}
+
+.deals-buy-now {
+  box-shadow: 0px 20px 35px 0px #00000026;
 }
